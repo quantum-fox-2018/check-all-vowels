@@ -10,7 +10,7 @@ function checkVocal(str) {
       }
     }
   }
-  if (jumlah === 5) {
+  if (jumlah === str.length) {
     return true
   } else {
     return false
@@ -20,3 +20,4 @@ function checkVocal(str) {
 console.log(checkVocal('aaaaa'));
 console.log(checkVocal('aiueo'));
 console.log(checkVocal('abbaa'));
+console.log(checkVocal('auiuiuiuaa'));
