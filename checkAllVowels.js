@@ -31,5 +31,5 @@ console.log(checkAllVowels('yeaa')); // true
 console.log(checkAllVowels('YEAA')); // true
 console.log(checkAllVowels('aiueo')); // true
 console.log(checkAllVowels('zxcvbnmAIUEO')); // true
-console.log(checkAllVowels('ZXCVBN')); // true
+console.log(checkAllVowels('ZXCVBN')); // false
 console.log(checkAllVowels('')); // false
