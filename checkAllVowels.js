@@ -1,5 +1,5 @@
 function cekVokal(str){
-  var vokal='aiueo'
+  var vokal='aiueoAIUEO'
   var count=[]
   for (var i = 0; i < str.length; i++) {
     for (var j = 0; j < vokal.length; j++) {
@@ -20,5 +20,6 @@ function cekVokal(str){
 console.log(cekVokal('amkan'));//false
 console.log(cekVokal('aiueo'));//true
 console.log(cekVokal('abbbe'));//false
-console.log(cekVokal('abbae'))//FALSE
-console.log(cekVokal('aabae'))//FALSE
+console.log(cekVokal('abbae'));//FALSE
+console.log(cekVokal('aabae'));//FALSE
+console.log(cekVokal('AIUEO'));//true
