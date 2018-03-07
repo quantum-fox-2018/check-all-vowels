@@ -3,7 +3,7 @@ const vowels = ["a", "i", "u", "e", "o"]
 function checkAllVowels(sentence){
   var flag = true;
   for (var i = 0; i < sentence.length; i++) {
-    if (vowels.indexOf(sentence[i]) === -1) {
+    if (vowels.indexOf(sentence[i].toLowerCase()) === -1) {
       flag = false;
     }
   }
